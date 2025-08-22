@@ -1,0 +1,1719 @@
+{
+    "_id": "68646c710f9b38a8f40c57a2",
+    "shortId": "lpx9KP",
+    "name": "test",
+    "description": "",
+    "userId": "68646c7174ad9c1972f943b0",
+    "cachedUsername": "",
+    "created": 1751411825917,
+    "updated": 1751616288672,
+    "visibility": "private",
+    "ops": [
+        {
+            "opId": "f1029550-d877-42da-9b1e-63a5163a0350",
+            "id": "h7mdacdqh",
+            "uiAttribs": {
+                "translate": {
+                    "x": -63.3688839820627,
+                    "y": -300
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Max Pixel Density (DPR)",
+                    "value": 2
+                },
+                {
+                    "name": "FPS Limit",
+                    "value": 0
+                },
+                {
+                    "name": "Reduce FPS unfocussed",
+                    "value": 0
+                },
+                {
+                    "name": "Transparent",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Trigger In",
+                            "portOut": "trigger",
+                            "objIn": "lw7ewu5u1",
+                            "objOut": "h7mdacdqh"
+                        }
+                    ]
+                },
+                {
+                    "name": "width",
+                    "links": [
+                        {
+                            "portIn": "resolution X",
+                            "portOut": "width",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "h7mdacdqh"
+                        }
+                    ]
+                },
+                {
+                    "name": "height",
+                    "links": [
+                        {
+                            "portIn": "resolution Y",
+                            "portOut": "height",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "h7mdacdqh"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pixel Density",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "opId": "b781bc6b-b2cf-44fe-80eb-a840e430d27d",
+            "id": "ggru28xo5",
+            "uiAttribs": {
+                "translate": {
+                    "x": 85.9046741673088,
+                    "y": -160
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Width",
+                    "value": 256
+                },
+                {
+                    "name": "Height",
+                    "value": 256
+                },
+                {
+                    "name": "Filter index",
+                    "value": 0
+                },
+                {
+                    "name": "Filter",
+                    "value": "nearest"
+                },
+                {
+                    "name": "Wrap index",
+                    "value": 0
+                },
+                {
+                    "name": "Wrap",
+                    "value": "repeat"
+                },
+                {
+                    "name": "Color",
+                    "value": 0
+                },
+                {
+                    "name": "Pixel Format index",
+                    "value": 4
+                },
+                {
+                    "name": "Pixel Format",
+                    "value": "RGBA 8bit ubyte"
+                },
+                {
+                    "name": "Integer",
+                    "value": 0
+                },
+                {
+                    "name": "Channel R",
+                    "value": 1
+                },
+                {
+                    "name": "Min R",
+                    "value": 0
+                },
+                {
+                    "name": "Max R",
+                    "value": 1
+                },
+                {
+                    "name": "Channel G",
+                    "value": 1
+                },
+                {
+                    "name": "Min G",
+                    "value": 0
+                },
+                {
+                    "name": "Max G",
+                    "value": 1
+                },
+                {
+                    "name": "Channel B",
+                    "value": 1
+                },
+                {
+                    "name": "Min B",
+                    "value": 0
+                },
+                {
+                    "name": "Max B",
+                    "value": 1
+                },
+                {
+                    "name": "Channel A",
+                    "value": 1
+                },
+                {
+                    "name": "Min A",
+                    "value": 1
+                },
+                {
+                    "name": "Max A",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Texture",
+                    "links": [
+                        {
+                            "portIn": "tex",
+                            "portOut": "Texture",
+                            "objIn": "ite9e2ks3",
+                            "objOut": "ggru28xo5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Total Pixel",
+                    "value": 65536
+                }
+            ]
+        },
+        {
+            "opId": "fb70721a-eac2-4ff5-a5a2-5c59e2393972",
+            "id": "8rp7lqp4x",
+            "uiAttribs": {
+                "translate": {
+                    "x": -111.3688839820627,
+                    "y": 40
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Scale index",
+                    "value": 1
+                },
+                {
+                    "name": "Scale",
+                    "value": "Fit"
+                },
+                {
+                    "name": "Flip Y",
+                    "value": 0
+                },
+                {
+                    "name": "Flip X",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Trigger",
+                            "portOut": "trigger",
+                            "objIn": "9rc8u58ft",
+                            "objOut": "8rp7lqp4x"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "a165fc89-a35b-4d39-8930-7345b098bd9d",
+            "id": "ite9e2ks3",
+            "uiAttribs": {
+                "translate": {
+                    "x": -111.3688839820627,
+                    "y": -100
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Fragment Code",
+                    "value": "UNI sampler2D tex;\nIN vec2 texCoord;\n{{MODULES_HEAD}}\nvoid main()\n{\n    vec4 col=vec4(1.0,1.0,1.0,1.0);\n    {{MODULE_COLOR}}\n    col*=texture2D(tex,texCoord);\n    if (col.r < 0.33) {\n        col.r = 1.0;\n        col.g = 0.0;\n        col.b = 0.0;\n    } else if (col.r < 0.66) {\n        col.r = 0.0;\n        col.g = 1.0;\n        col.b = 0.0;\n    } else {\n        col.r = 0.0;\n        col.g = 0.0;\n        col.b = 1.0;\n    }\n    outColor = col;\n}"
+                },
+                {
+                    "name": "Vertex Code",
+                    "value": "\n{{MODULES_HEAD}}\nIN vec3 vPosition; //!@\nIN vec2 attrTexCoord;\nIN vec3 attrVertNormal;\nIN vec3 attrTangent,attrBiTangent;\n\nIN float attrVertIndex;\n\nOUT vec2 texCoord;\nOUT vec3 norm;\nUNI mat4 projMatrix;\nUNI mat4 viewMatrix;\nUNI mat4 modelMatrix;\n\nvoid main()\n{\n    texCoord=attrTexCoord;\n    norm=attrVertNormal;\n    vec4 pos=vec4(vPosition,  1.0);\n    vec3 tangent=attrTangent;\n    vec3 bitangent=attrBiTangent;\n    mat4 mMatrix=modelMatrix;\n    gl_PointSize=10.0;\n\n    {{MODULE_VERTEX_POSITION}}\n\n    mat4 modelViewMatrix=viewMatrix*mMatrix;\n    {{MODULE_VERTEX_MODELVIEW}}\n\n    gl_Position = projMatrix * modelViewMatrix * pos;\n}\n"
+                },
+                {
+                    "name": "Use As Material",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "trigger",
+                            "objIn": "iq30xn6se",
+                            "objOut": "ite9e2ks3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Shader",
+                    "links": [
+                        {
+                            "portIn": "Shader",
+                            "portOut": "Shader",
+                            "objIn": "iq30xn6se",
+                            "objOut": "ite9e2ks3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Has Errors",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "opId": "eb40e0e0-761b-4ce7-987a-014fff720873",
+            "id": "iq30xn6se",
+            "uiAttribs": {
+                "translate": {
+                    "x": -111.3688839820627,
+                    "y": -60
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Size index",
+                    "value": 1
+                },
+                {
+                    "name": "Size",
+                    "value": "Manual"
+                },
+                {
+                    "name": "Width",
+                    "value": 512
+                },
+                {
+                    "name": "Height",
+                    "value": 512
+                },
+                {
+                    "name": "filter index",
+                    "value": 0
+                },
+                {
+                    "name": "filter",
+                    "value": "nearest"
+                },
+                {
+                    "name": "Anisotropic index",
+                    "value": 0
+                },
+                {
+                    "name": "Anisotropic",
+                    "value": "0"
+                },
+                {
+                    "name": "wrap index",
+                    "value": 0
+                },
+                {
+                    "name": "wrap",
+                    "value": "clamp to edge"
+                },
+                {
+                    "name": "Pixel Format index",
+                    "value": 4
+                },
+                {
+                    "name": "Pixel Format",
+                    "value": "RGBA 8bit ubyte"
+                },
+                {
+                    "name": "Num Textures index",
+                    "value": 0
+                },
+                {
+                    "name": "Num Textures",
+                    "value": "1"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Next",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "Next",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "iq30xn6se"
+                        }
+                    ]
+                },
+                {
+                    "name": "Texture",
+                    "links": [
+                        {
+                            "portIn": "tex",
+                            "portOut": "Texture",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "iq30xn6se"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "a165fc89-a35b-4d39-8930-7345b098bd9d",
+            "id": "ss1e8ds9k",
+            "uiAttribs": {
+                "translate": {
+                    "x": -111.3688839820627,
+                    "y": -20
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Fragment Code",
+                    "value": "UNI sampler2D tex;\nUNI vec2 resolution;\nUNI float block;\nUNI float depth_multiplicator;\nUNI float fft[16];\nUNI float depth;\n\nIN vec2 texCoord;\n{{MODULES_HEAD}}\nvoid main()\n{\n    {{MODULE_COLOR}}\n    \n    vec2 texelSize = 1.0 / resolution;\n    vec4 avg=vec4(0.0,0.0,0.0,0.0);\n    for (float x = 0.0; x<block; x++) {\n        for (float y = 0.0; y<block; y++) {\n            avg+=texture2D(tex,texCoord+vec2(texelSize.x*x, texelSize.y*y));\n        }\n    }\n    avg.rgb /= block*block;\n        \n    /*\n    float hf = 0.;\n    for (int i = 14; i<16; i++) {\n        hf += fft[i];\n    }\n    \n    hf /= 55.0;\n    hf *= depth_multiplicator;\n    hf = max(hf, 1.0);\n    \n    avg *= hf;\n    avg = floor(avg);\n    avg /= hf;*/\n    \n    \n    avg *= depth;\n    avg = floor(avg);\n    avg /= depth;\n\n    \n    avg.rgb *= 1.5;\n    if (avg.g < 0.01) {\n        avg.r = 1.;\n        avg.g = 1.;\n    } else {\n        avg.g = 1.;\n        avg.b = 0.2;\n    }\n    \n    outColor = avg;\n}"
+                },
+                {
+                    "name": "Vertex Code",
+                    "value": "\n{{MODULES_HEAD}}\nIN vec3 vPosition; //!@\nIN vec2 attrTexCoord;\nIN vec3 attrVertNormal;\nIN vec3 attrTangent,attrBiTangent;\n\nIN float attrVertIndex;\n\nOUT vec2 texCoord;\nOUT vec3 norm;\nUNI mat4 projMatrix;\nUNI mat4 viewMatrix;\nUNI mat4 modelMatrix;\n\nvoid main()\n{\n    texCoord=attrTexCoord;\n    norm=attrVertNormal;\n    vec4 pos=vec4(vPosition,  1.0);\n    vec3 tangent=attrTangent;\n    vec3 bitangent=attrBiTangent;\n    mat4 mMatrix=modelMatrix;\n    gl_PointSize=10.0;\n\n    {{MODULE_VERTEX_POSITION}}\n\n    mat4 modelViewMatrix=viewMatrix*mMatrix;\n    {{MODULE_VERTEX_MODELVIEW}}\n\n    gl_Position = projMatrix * modelViewMatrix * pos;\n}\n"
+                },
+                {
+                    "name": "Use As Material",
+                    "value": 1
+                },
+                {
+                    "name": "block",
+                    "value": 8
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "8rp7lqp4x",
+                            "objOut": "ss1e8ds9k"
+                        },
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "yc97chv8b",
+                            "objOut": "ss1e8ds9k"
+                        }
+                    ]
+                },
+                {
+                    "name": "Has Errors",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "opId": "beff95ec-7b50-4b6e-80b8-a7e4ab97d8cc",
+            "id": "fy7ajj0qv",
+            "uiAttribs": {
+                "translate": {
+                    "x": 97.9046741673088,
+                    "y": -200
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Update Rate",
+                    "value": 10
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Year",
+                    "value": 2025
+                },
+                {
+                    "name": "Month",
+                    "value": 6
+                },
+                {
+                    "name": "Day",
+                    "value": 4
+                },
+                {
+                    "name": "Hours",
+                    "value": 10
+                },
+                {
+                    "name": "Minutes",
+                    "value": 4
+                },
+                {
+                    "name": "Seconds",
+                    "value": 48
+                },
+                {
+                    "name": "Timestamp",
+                    "links": [
+                        {
+                            "portIn": "Seed",
+                            "portOut": "Timestamp",
+                            "objIn": "ggru28xo5",
+                            "objOut": "fy7ajj0qv"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "5f1d6a2f-1c04-4744-b0fb-910825beceee",
+            "id": "8m75o1otn",
+            "uiAttribs": {
+                "translate": {
+                    "x": -99.3688839820627,
+                    "y": -400
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "URL",
+                    "value": "file:///C:/Users/Meb/Music/Musiques/DJ%20Rozwell/Thee%20Blacksmith.mp3",
+                    "display": "file"
+                },
+                {
+                    "name": "Create Loading Task",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Audio Buffer",
+                    "links": [
+                        {
+                            "portIn": "Audio Buffer",
+                            "portOut": "Audio Buffer",
+                            "objIn": "ripgrlh6v",
+                            "objOut": "8m75o1otn"
+                        }
+                    ]
+                },
+                {
+                    "name": "Finished Loading",
+                    "value": 1
+                },
+                {
+                    "name": "Sample Rate",
+                    "value": 44100
+                },
+                {
+                    "name": "Length",
+                    "value": 11597362
+                },
+                {
+                    "name": "Duration",
+                    "value": 262.9787301587302
+                },
+                {
+                    "name": "Number of Channels",
+                    "value": 2
+                },
+                {
+                    "name": "isLoading",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "opId": "3abd0dbb-eeee-4c65-ae31-b8bc2345e2d5",
+            "id": "ripgrlh6v",
+            "uiAttribs": {
+                "translate": {
+                    "x": -99.3688839820627,
+                    "y": -339.96990519733697
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Loop",
+                    "value": 0
+                },
+                {
+                    "name": "Offset",
+                    "value": 0
+                },
+                {
+                    "name": "Playback Rate",
+                    "value": 1
+                },
+                {
+                    "name": "Detune",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Audio Out",
+                    "links": [
+                        {
+                            "portIn": "Audio In",
+                            "portOut": "Audio Out",
+                            "objIn": "ka0o884ua",
+                            "objOut": "ripgrlh6v"
+                        },
+                        {
+                            "portIn": "Audio In",
+                            "portOut": "Audio Out",
+                            "objIn": "lw7ewu5u1",
+                            "objOut": "ripgrlh6v"
+                        },
+                        {
+                            "portIn": "Audio In",
+                            "portOut": "Audio Out",
+                            "objIn": "79qut3gg6",
+                            "objOut": "ripgrlh6v"
+                        }
+                    ]
+                },
+                {
+                    "name": "Is Playing",
+                    "value": false
+                },
+                {
+                    "name": "Loading",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "opId": "90b95403-b0c4-4980-ab3b-b6c354771c81",
+            "id": "ka0o884ua",
+            "uiAttribs": {
+                "translate": {
+                    "x": -191.61568564815866,
+                    "y": -260
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Volume",
+                    "value": 1
+                },
+                {
+                    "name": "Mute",
+                    "value": 0
+                },
+                {
+                    "name": "Show Audio Suspended Button",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Current Volume",
+                    "value": 1
+                },
+                {
+                    "name": "Number Of Channels",
+                    "value": 2
+                },
+                {
+                    "name": "Context State",
+                    "value": "running"
+                }
+            ]
+        },
+        {
+            "opId": "ff9bf46c-676f-4aa1-95bf-5595a6813ed7",
+            "id": "lw7ewu5u1",
+            "uiAttribs": {
+                "translate": {
+                    "x": -111.3688839820627,
+                    "y": -260
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "FFT size index",
+                    "value": 0
+                },
+                {
+                    "name": "FFT size",
+                    "value": "32"
+                },
+                {
+                    "name": "Smoothing",
+                    "value": 0.3
+                },
+                {
+                    "name": "Min",
+                    "value": -90
+                },
+                {
+                    "name": "Max",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Trigger Out",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "Trigger Out",
+                            "objIn": "ite9e2ks3",
+                            "objOut": "lw7ewu5u1"
+                        }
+                    ]
+                },
+                {
+                    "name": "FFT Array",
+                    "links": [
+                        {
+                            "portIn": "fft",
+                            "portOut": "FFT Array",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "lw7ewu5u1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Array Length",
+                    "value": 16
+                },
+                {
+                    "name": "Average Volume",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Average Volume",
+                            "objIn": "p85mfguum",
+                            "objOut": "lw7ewu5u1"
+                        },
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Average Volume",
+                            "objIn": "z4qq3kbdu",
+                            "objOut": "lw7ewu5u1"
+                        },
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Average Volume",
+                            "objIn": "7vr4xktdb",
+                            "objOut": "lw7ewu5u1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Average Volume Time-Domain",
+                    "value": 0.5
+                },
+                {
+                    "name": "RMS Volume",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "7vr4xktdb",
+            "uiAttribs": {
+                "translate": {
+                    "x": -15.368883982062698,
+                    "y": -205.53945570526858
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "math mode index",
+                    "value": 2
+                },
+                {
+                    "name": "math mode",
+                    "value": "*"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "ensnv8ymd",
+                            "objOut": "7vr4xktdb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "ensnv8ymd",
+            "uiAttribs": {
+                "translate": {
+                    "x": -15.368883982062698,
+                    "y": -160
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 0.5
+                },
+                {
+                    "name": "math mode index",
+                    "value": 6
+                },
+                {
+                    "name": "math mode",
+                    "value": "max"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Length",
+                            "portOut": "result",
+                            "objIn": "thsmu0w1l",
+                            "objOut": "ensnv8ymd"
+                        },
+                        {
+                            "portIn": "depth",
+                            "portOut": "result",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "ensnv8ymd"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "37b92ba4-cea5-42ae-bf28-a513ca28549c",
+            "id": "thsmu0w1l",
+            "uiAttribs": {
+                "translate": {
+                    "x": 46.981685318251664,
+                    "y": 160
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Render Mesh",
+                    "value": 1
+                },
+                {
+                    "name": "Center",
+                    "value": 1
+                },
+                {
+                    "name": "Mapping index",
+                    "value": 1
+                },
+                {
+                    "name": "Mapping",
+                    "value": "Cube +-"
+                },
+                {
+                    "name": "Bias",
+                    "value": 0
+                },
+                {
+                    "name": "Flip X",
+                    "value": 0
+                },
+                {
+                    "name": "Top",
+                    "value": 1
+                },
+                {
+                    "name": "Bottom",
+                    "value": 1
+                },
+                {
+                    "name": "Left",
+                    "value": 1
+                },
+                {
+                    "name": "Right",
+                    "value": 1
+                },
+                {
+                    "name": "Front",
+                    "value": 1
+                },
+                {
+                    "name": "Back",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "opId": "650baeb1-db2d-4781-9af6-ab4e9d4277be",
+            "id": "yc97chv8b",
+            "uiAttribs": {
+                "translate": {
+                    "x": 46.981685318251664,
+                    "y": 100
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "posX",
+                    "value": 0
+                },
+                {
+                    "name": "posY",
+                    "value": 0
+                },
+                {
+                    "name": "posZ",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "trigger",
+                            "objIn": "thsmu0w1l",
+                            "objOut": "yc97chv8b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "beff95ec-7b50-4b6e-80b8-a7e4ab97d8cc",
+            "id": "uk56jvrl8",
+            "uiAttribs": {
+                "translate": {
+                    "x": 46.981685318251664,
+                    "y": -20
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Update Rate",
+                    "value": 200
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Year",
+                    "value": 2025
+                },
+                {
+                    "name": "Month",
+                    "value": 6
+                },
+                {
+                    "name": "Day",
+                    "value": 4
+                },
+                {
+                    "name": "Hours",
+                    "value": 10
+                },
+                {
+                    "name": "Minutes",
+                    "value": 4
+                },
+                {
+                    "name": "Seconds",
+                    "value": 48
+                },
+                {
+                    "name": "Timestamp",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Timestamp",
+                            "objIn": "mruoh3f5e",
+                            "objOut": "uk56jvrl8"
+                        },
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Timestamp",
+                            "objIn": "cmh46bpwv",
+                            "objOut": "uk56jvrl8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "mruoh3f5e",
+            "uiAttribs": {
+                "translate": {
+                    "x": 48.286439858234885,
+                    "y": 40
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 200
+                },
+                {
+                    "name": "math mode index",
+                    "value": 3
+                },
+                {
+                    "name": "math mode",
+                    "value": "/"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "rotX",
+                            "portOut": "result",
+                            "objIn": "yc97chv8b",
+                            "objOut": "mruoh3f5e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "cmh46bpwv",
+            "uiAttribs": {
+                "translate": {
+                    "x": 118.98168531825166,
+                    "y": 40
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": -50
+                },
+                {
+                    "name": "math mode index",
+                    "value": 3
+                },
+                {
+                    "name": "math mode",
+                    "value": "/"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "rotY",
+                            "portOut": "result",
+                            "objIn": "yc97chv8b",
+                            "objOut": "cmh46bpwv"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "2c29baf0-2af2-486d-9218-4299594ee9c1",
+            "id": "9rc8u58ft",
+            "uiAttribs": {
+                "title": "var set",
+                "translate": {
+                    "x": 185.81905321855177,
+                    "y": 100
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Variable",
+                    "value": "rotZ"
+                }
+            ]
+        },
+        {
+            "opId": "421f5b52-c0fa-47c4-8b7a-012b9e1c864a",
+            "id": "gy0wrk915",
+            "uiAttribs": {
+                "title": "var get",
+                "translate": {
+                    "x": 197.81905321855177,
+                    "y": -100
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Variable",
+                    "value": "rotZ"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Value",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "Value",
+                            "objIn": "i6ckijyrm",
+                            "objOut": "gy0wrk915"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "tpiv4pal6",
+            "uiAttribs": {
+                "translate": {
+                    "x": 197.81905321855177,
+                    "y": 40
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "math mode index",
+                    "value": 0
+                },
+                {
+                    "name": "math mode",
+                    "value": "+"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Value",
+                            "portOut": "result",
+                            "objIn": "9rc8u58ft",
+                            "objOut": "tpiv4pal6"
+                        },
+                        {
+                            "portIn": "rotZ",
+                            "portOut": "result",
+                            "objIn": "yc97chv8b",
+                            "objOut": "tpiv4pal6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "i6ckijyrm",
+            "uiAttribs": {
+                "translate": {
+                    "x": 197.81905321855177,
+                    "y": -60
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 1
+                },
+                {
+                    "name": "math mode index",
+                    "value": 4
+                },
+                {
+                    "name": "math mode",
+                    "value": "%"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "tpiv4pal6",
+                            "objOut": "i6ckijyrm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "z4qq3kbdu",
+            "uiAttribs": {
+                "translate": {
+                    "x": 209.81905321855177,
+                    "y": -20
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 10
+                },
+                {
+                    "name": "math mode index",
+                    "value": 2
+                },
+                {
+                    "name": "math mode",
+                    "value": "*"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 1",
+                            "portOut": "result",
+                            "objIn": "tpiv4pal6",
+                            "objOut": "z4qq3kbdu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "p85mfguum",
+            "uiAttribs": {
+                "translate": {
+                    "x": 42.60742852568549,
+                    "y": -100
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 2
+                },
+                {
+                    "name": "math mode index",
+                    "value": 2
+                },
+                {
+                    "name": "math mode",
+                    "value": "*"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "l5u4vy332",
+                            "objOut": "p85mfguum"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "l5u4vy332",
+            "uiAttribs": {
+                "translate": {
+                    "x": 42.60742852568549,
+                    "y": -60
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 1
+                },
+                {
+                    "name": "math mode index",
+                    "value": 6
+                },
+                {
+                    "name": "math mode",
+                    "value": "max"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Height",
+                            "portOut": "result",
+                            "objIn": "thsmu0w1l",
+                            "objOut": "l5u4vy332"
+                        },
+                        {
+                            "portIn": "Width",
+                            "portOut": "result",
+                            "objIn": "thsmu0w1l",
+                            "objOut": "l5u4vy332"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "aac7f721-208f-411a-adb3-79adae2e471a",
+            "id": "xjp7b1g0j",
+            "uiAttribs": {
+                "translate": {
+                    "x": 48,
+                    "y": -340
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Speed",
+                    "value": 1
+                },
+                {
+                    "name": "Sync to timeline",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Time",
+                    "links": [
+                        {
+                            "portIn": "Value 1",
+                            "portOut": "Time",
+                            "objIn": "gurhzrms2",
+                            "objOut": "xjp7b1g0j"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "5nqa2atut",
+            "uiAttribs": {
+                "translate": {
+                    "x": 48,
+                    "y": -260
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "math mode index",
+                    "value": 3
+                },
+                {
+                    "name": "math mode",
+                    "value": "/"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "scale",
+                            "portOut": "result",
+                            "objIn": "yc97chv8b",
+                            "objOut": "5nqa2atut"
+                        },
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "rrijjc92f",
+                            "objOut": "5nqa2atut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "24a9062d-380c-4690-8fe7-6703787fa94c",
+            "id": "gurhzrms2",
+            "uiAttribs": {
+                "translate": {
+                    "x": 48,
+                    "y": -300
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "5nqa2atut",
+                            "objOut": "gurhzrms2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "8fb2bb5d-665a-4d0a-8079-12710ae453be",
+            "id": "ywnsh9419",
+            "uiAttribs": {
+                "title": "Value 2",
+                "translate": {
+                    "x": 110.66410535094803,
+                    "y": -340
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "value",
+                    "value": 200
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 1",
+                            "portOut": "result",
+                            "objIn": "5nqa2atut",
+                            "objOut": "ywnsh9419"
+                        },
+                        {
+                            "portIn": "Value 2",
+                            "portOut": "result",
+                            "objIn": "gurhzrms2",
+                            "objOut": "ywnsh9419"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "43ed1123-1312-4383-b843-27b8ec540c09",
+            "id": "3we2ce5xy",
+            "uiAttribs": {
+                "translate": {
+                    "x": 60,
+                    "y": -399.91264542971487
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "number",
+                    "links": [
+                        {
+                            "portIn": "Play",
+                            "portOut": "number",
+                            "objIn": "xjp7b1g0j",
+                            "objOut": "3we2ce5xy"
+                        },
+                        {
+                            "portIn": "Recording",
+                            "portOut": "number",
+                            "objIn": "79qut3gg6",
+                            "objOut": "3we2ce5xy"
+                        },
+                        {
+                            "portIn": "Start / Stop",
+                            "portOut": "number",
+                            "objIn": "ripgrlh6v",
+                            "objOut": "3we2ce5xy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Triggered",
+                    "links": [
+                        {
+                            "portIn": "Reset",
+                            "portOut": "Triggered",
+                            "objIn": "xjp7b1g0j",
+                            "objOut": "3we2ce5xy"
+                        },
+                        {
+                            "portIn": "Restart",
+                            "portOut": "Triggered",
+                            "objIn": "ripgrlh6v",
+                            "objOut": "3we2ce5xy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "rrijjc92f",
+            "uiAttribs": {
+                "translate": {
+                    "x": 155.94431245247603,
+                    "y": -299.79186722657903
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 1
+                },
+                {
+                    "name": "math mode index",
+                    "value": 2
+                },
+                {
+                    "name": "math mode",
+                    "value": "*"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 0",
+                            "portOut": "result",
+                            "objIn": "lue1qujxl",
+                            "objOut": "rrijjc92f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e9fdcaca-a007-4563-8a4d-e94e08506e0f",
+            "id": "lue1qujxl",
+            "uiAttribs": {
+                "translate": {
+                    "x": 155.94431245247603,
+                    "y": -260
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number 1",
+                    "value": 3
+                },
+                {
+                    "name": "math mode index",
+                    "value": 0
+                },
+                {
+                    "name": "math mode",
+                    "value": "+"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number 1",
+                            "portOut": "result",
+                            "objIn": "7vr4xktdb",
+                            "objOut": "lue1qujxl"
+                        },
+                        {
+                            "portIn": "depth_multiplicator",
+                            "portOut": "result",
+                            "objIn": "ss1e8ds9k",
+                            "objOut": "lue1qujxl"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "685c632b-b9da-4c6e-aa22-0cfefb533dbf",
+            "id": "79qut3gg6",
+            "uiAttribs": {
+                "translate": {
+                    "x": -339.237209428601,
+                    "y": -263.00137678096206
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Filename",
+                    "value": "cables"
+                },
+                {
+                    "name": "Download Video",
+                    "value": 1
+                },
+                {
+                    "name": "Mimetype index",
+                    "value": 4
+                },
+                {
+                    "name": "Mimetype",
+                    "value": "video/webm;codecs=vp9,opus"
+                },
+                {
+                    "name": "MBit",
+                    "value": 22
+                },
+                {
+                    "name": "Max FPS",
+                    "value": 30
+                },
+                {
+                    "name": "Force FPS",
+                    "value": 0
+                },
+                {
+                    "name": "Media index",
+                    "value": 2
+                },
+                {
+                    "name": "Media",
+                    "value": "Audio+Video"
+                },
+                {
+                    "name": "Canvas index",
+                    "value": 0
+                },
+                {
+                    "name": "Canvas",
+                    "value": "Default"
+                },
+                {
+                    "name": "Video Canvas Id",
+                    "value": "glcanvas"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "State",
+                    "value": "inactive"
+                },
+                {
+                    "name": "Error",
+                    "value": ""
+                },
+                {
+                    "name": "Final Mimetype",
+                    "value": "video/webm;codecs=vp9,opus"
+                },
+                {
+                    "name": "Duration",
+                    "value": 108068.48419999999
+                },
+                {
+                    "name": "Video DataUrl",
+                    "value": "blob:file:///e1c049ed-a804-4541-9e17-d12560bdd1f7"
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "licence": "none"
+    },
+    "userList": [
+        {
+            "username": "",
+            "_id": "68646c7174ad9c1972f943b0",
+            "profile_theme": "dark",
+            "isStaff": false,
+            "usernameLowercase": "",
+            "isAdmin": false,
+            "theme": "dark",
+            "created": 1751411825917
+        }
+    ],
+    "teams": [],
+    "log": [],
+    "ui": {
+        "viewBox": {},
+        "renderer": {
+            "w": 1432,
+            "h": 673,
+            "s": 1
+        },
+        "timeline": {},
+        "texPreview": {},
+        "bookmarks": [],
+        "viewBoxesGl": {
+            "0": {
+                "x": -96.83345862323915,
+                "y": -147.6720997111059,
+                "z": 280.1280600688297
+            }
+        },
+        "outline": {
+            "includeBookmarks": true,
+            "includeSubpatches": false,
+            "includeCommented": true,
+            "includeComments": true,
+            "includeAreas": true,
+            "includeColored": true,
+            "includeCustomOps": true,
+            "includeAnimated": true
+        }
+    },
+    "summary": {
+        "title": "test"
+    },
+    "opsHash": "a4e45b53c59b3feda1d3171f6a7b1a4c08dd69bc",
+    "buildInfo": {
+        "updateWarning": false,
+        "core": {
+            "timestamp": 1750235009290,
+            "created": "2025-06-18T08:23:29.290Z",
+            "git": {
+                "branch": "master",
+                "commit": "93cda46efc322de76ba749290b531d99f4402652",
+                "date": "1750169125",
+                "message": "tri"
+            }
+        },
+        "ui": {
+            "timestamp": 1750235033798,
+            "created": "2025-06-18T08:23:53.798Z",
+            "git": {
+                "branch": "master",
+                "commit": "adefc6479d98b8efc691cd14d984a4050786ee9b",
+                "date": "1750234777",
+                "message": "tabclose"
+            }
+        },
+        "api": {
+            "timestamp": 1750235055639,
+            "created": "2025-06-18T08:24:15.639Z",
+            "git": {
+                "branch": "master",
+                "commit": "324226869e9876e2127ac27525ac20ad4fd3d942",
+                "date": "1750155737",
+                "message": "dev changes"
+            },
+            "platform": {
+                "os": ":win",
+                "npm": "10.5.2",
+                "node": "20.13.1"
+            },
+            "version": "0.6.0"
+        }
+    },
+    "updatedByUser": "",
+    "screenshot": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAFoCAYAAADHMkpRAAAAAXNSR0IArs4c6QAAEn1JREFUeF7t1sENADAIAzHYf2gqdY0zG8Thkb2bG0eAAAECBAgQIJARWAMw07WgBAgQIECAAIEvYAB6BAIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgACBB3+cNW1V3QCBAAAAAElFTkSuQmCC"
+}
